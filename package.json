@@ -1,0 +1,14 @@
+{
+  "name": "ansem-io-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Poll ansem.io and alert when the website/config changes",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "track": "node track.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
